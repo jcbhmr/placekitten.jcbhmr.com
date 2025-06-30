@@ -1,0 +1,90 @@
+<script src="https://unpkg.com/ezmdpage@2"></script><plaintext>
+
+# placekitten.jcbhmr.com
+
+Use this service to get random kitten images of specified dimensions.
+
+URL template:
+
+```
+https://placekitten.jcbhmr.com/<width>/<height>
+```
+
+Example URLs:
+
+```
+https://placekitten.jcbhmr.com/100/100
+https://placekitten.jcbhmr.com/200/200
+https://placekitten.jcbhmr.com/600/400
+https://placekitten.jcbhmr.com/628/1254
+```
+
+These URLs will return a random kitten image that fits the specified dimensions well.
+
+You can also just write gibberish in the URL and it will always return a specific image sorta like a randomizer seed:
+
+```
+https://placekitten.jcbhmr.com/abc123xyz456
+https://placekitten.jcbhmr.com/hello-world
+https://placekitten.jcbhmr.com/1234567890
+```
+
+This will return the same image every time, which can be useful.
+
+Live example images in a table:
+
+<table align=center>
+
+<tr> <!-- N x 100 -->
+
+<td align=center>
+<img src="/100/100" width="100" height="100"><br>
+<a href="/100/100">https://placekitten.jcbhmr.com/100/100</a>
+
+<td align=center>
+<img src="/200/100" width="200" height="100"><br>
+<a href="/200/100">https://placekitten.jcbhmr.com/200/100</a>
+
+<td align=center>
+<img src="/300/100" width="300" height="100"><br>
+<a href="/300/100">https://placekitten.jcbhmr.com/300/100</a>
+
+<tr> <!-- N x 200 -->
+
+<td align=center>
+<img src="/100/200" width="100" height="200"><br>
+<a href="/100/200">https://placekitten.jcbhmr.com/100/200</a>
+
+<td align=center>
+<img src="/200/200" width="200" height="200"><br>
+<a href="/200/200">https://placekitten.jcbhmr.com/200/200</a>
+
+<td align=center>
+<img src="/300/200" width="300" height="200"><br>
+<a href="/300/200">https://placekitten.jcbhmr.com/300/200</a>
+
+<tr> <!-- N x 300 -->
+
+<td align=center>
+<img src="/100/300" width="100" height="300"><br>
+<a href="/100/300">https://placekitten.jcbhmr.com/100/300</a>
+
+<td align=center>
+<img src="/200/300" width="200" height="300"><br>
+<a href="/200/300">https://placekitten.jcbhmr.com/200/300</a>
+
+<td align=center>
+<img src="/300/300" width="300" height="300"><br>
+<a href="/300/300">https://placekitten.jcbhmr.com/300/300</a>
+
+</table>
+
+How does it work? It's just on-demand redirects to Unsplash free-to-use kitten images filtered and sized to fit the requested dimensions. 🎉
+
+<div align=center>
+
+[You can view the source code on GitHub](https://github.com/jcbhmr/placekitten.jcbhmr.com). \
+Made by [Jacob Hummer](https://jcbhmr.com). \
+The cat images are under the [Unsplash License](https://unsplash.com/license).
+
+</div>

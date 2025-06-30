@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno serve --watch -A mod.ts"
+  },
+  "imports": {
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.49",
+    "@sindresorhus/string-hash": "npm:@sindresorhus/string-hash@^2.0.0",
+    "array-shuffle": "npm:array-shuffle@^3.0.0",
+    "hono": "npm:hono@^4.8.3"
+  }
+}
