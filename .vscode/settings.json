@@ -1,6 +1,6 @@
 {
   "deno.enable": true,
   "files.associations": {
-    "*.md.html": "markdown",
+    "*.md.html": "markdown"
   }
 }
