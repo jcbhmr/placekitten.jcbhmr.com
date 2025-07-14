@@ -52,6 +52,10 @@ app.get("/:width/:height", cors(), (c) => {
   const data3 = arrayShuffle(data2);
   const larger = data3
     .filter((item) => item.raw_height >= height && item.raw_width >= width);
+  if (!larger.length) {
+    c.status(400);
+    return c.text(`No items with height >=${height} & width >=${width}`);
+  }
   const bestFit = larger
     .reduce((prev, curr) => {
       const prevDiff = Math.abs(prev.aspect_ratio - requestedAspectRatio);
